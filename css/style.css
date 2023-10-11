@@ -6,3 +6,136 @@
     list-style: none;
     text-decoration: none;
 }
+
+:root{
+    --background-primary: black;
+    --background-secondary: #222222;
+    --background-terthiary: #4A4A4A;
+    --danger-color: #D21212;
+    --safe-color: #4BC800;
+    --ligth: white;
+}
+
+
+/* --------------------
+   utilities_section
+-------------------- */
+.d-flex{
+    display: flex;
+}
+
+.col-1{
+width: calc(100% / 12);
+}
+
+.col-2{
+width: calc(100% / 12 * 2);
+}
+
+.col-3{
+width: calc(100% / 12 * 3);
+}
+
+.col-4{
+width: calc(100% /12 * 4);
+}
+
+.col-5{
+width: calc(100% / 12 * 5);
+}
+
+.col-6{
+width: 50%;
+}
+
+.col-7{
+width: calc(100% / 12 * 7);
+}
+
+.col-8{
+width: calc(100% / 12 * 8);
+}
+
+.col-9{
+width: calc(100% / 12 * 9);
+}
+
+.col-10{
+width: calc(100% / 12 * 10);
+}
+
+.col-11{
+width: calc(100% / 12 * 11);
+}
+
+.col-12{
+width: 100%;
+}
+/* --------------------
+  /utilities_section
+-------------------- */
+
+/* --------------------
+      gemeral_css
+-------------------- */
+.viewport{
+    height: 100vh;
+    background-color: var(--background-primary);
+}
+
+#main_section{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.container{
+    padding-top: 5rem;
+    width: 80%;
+    margin: auto;
+}
+
+.row{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user_card{
+    position: relative;
+    height: fit-content;
+    min-width: 150px;
+    padding-right: .2rem;
+}
+
+.user_card>img{
+    width: 100%;
+}
+
+.user_card_name{
+    position: absolute;
+    bottom: 0.3rem;
+    left: 0;
+    background-color: #4a4a4aaf;
+    color: var(--ligth);
+    font-size: 1rem;
+    padding: 0.2rem;
+}
+
+.fast_action{
+    gap: 0.2rem;
+    color: var(--ligth);
+    font-size: 1rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.view, .full_screen{
+    background-color: var(--background-terthiary);
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+
+}
+/* --------------------
+     /general_css
+-------------------- */
